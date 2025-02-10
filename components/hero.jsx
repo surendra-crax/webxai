@@ -36,8 +36,8 @@ const HeroSection = () => {
             Career Advancement
           </h1>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
-            Advance your career with personalized guidance, interview prep, and
-            AI-powered tools for job success.
+            Take your career to the next level with personalized guidance, 
+            expert interview prep, and AI-powered job resources.
           </p>
         </div>
         <div className="flex justify-center space-x-4">
@@ -46,7 +46,7 @@ const HeroSection = () => {
               Get Started
             </Button>
           </Link>
-          <Link href="https://www.youtube.com/roadsidecoder">
+          <Link href="#">
             <Button size="lg" variant="outline" className="px-8">
               Watch Demo
             </Button>
