@@ -21,9 +21,11 @@ export default function RootLayout({ children }) {
       <body
         className={` ${inter.className} `}
       >
-        <ClerkProvider appearance={{
+{/* appearance={{
           baseTheme: dark  ,
-         } }>
+         } }*/}
+
+        <ClerkProvider>
         <ThemeProvider
             attribute="class"
             defaultTheme="dark"
